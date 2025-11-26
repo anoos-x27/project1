@@ -6,3 +6,4 @@ print("Average:", round(sum(g for _,g in students)/len(students),2))
 high = max(g for _,g in students)
 print("Top score:", high, "->", sorted(n for n,g in students if g==high))
 print("Failing:", sorted(n for n,g in students if g<60))
+# This is a new edit from omar.
